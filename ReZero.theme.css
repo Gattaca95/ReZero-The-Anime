@@ -497,98 +497,83 @@ a:link {
 
 
 /* Emoji */
-
 .channel-textarea-emoji>.sprite-item,
 .channel-textarea-emoji.popout-open .sprite-item {
   background-image:url(https://i.imgur.com/9H4Zx9s.png)!important;
 }
-
 .emoji-picker .categories .item.selected {
     border-bottom-color: #9C0505;
 }
-
+.emoji-picker .category {
+    color: rgb(255, 255, 255);
+}
 .bda-dark #bda-qem-favourite-container, 
 .bda-dark #bda-qem-twitch-container, 
 .bda-dark .emoji-picker, 
 .bda-dark .emoji-picker .category {
-    background-color: rgb(0, 0, 0);
-    border: #C71D1D;
+    background-color: rgba(175, 175, 255, 0.85);
+    border: #8282ff;
 }
-
 .bda-dark .emoji-picker .header .search-bar {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(163, 161, 236);
 }
-
 .bda-dark .emoji-picker .search-bar input {
     color: #FFF;
-    background-color: #500000;
-    border-top: 1px solid rgba(177, 0, 0, 0.83);
+    background-color: #56427B;
+    border-top: 1px solid rgb(130, 130, 255);
 }
-
+.bda-dark #bda-qem button:hover {
+    background-color: #8282ff;
+}
+.bda-dark #bda-qem button.active {
+    background-color: #afafff;
+}
 .bda-dark #bda-qem button {
-    background: #000000;
-    border-left: 1px solid #D00000;
-    box-shadow: #5A0101 1px 0 0 0;
+    background: #afafff;
+    border-left: 1px solid #8282ff;
+    box-shadow: #8282ff 1px 0 0 0;
     color: #FFF;
 }
-
-.bda-dark #bda-qem button:hover {
-    background-color: rgba(86, 0, 0, 0.86);
-}
-
-.bda-dark #bda-qem button.active {
-    background-color: rgba(86, 0, 0, 0.86);
-}
-
 .bda-dark #bda-qem {
-    border-bottom: 1px solid #C10000!important;
-    background: #1F0202;
+    border-bottom: 1px solid #8282ff!important;
+    background: #afafff;
 }
-
 .emote-menu-inner {
     padding: 5px 0 0 15px;
 }
-
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
-    background: rgba(86, 0, 0, 0.86) !important;
-    border-color:#000 !important;
+    background: #afafff !important;
+    border-color:rgb(71, 62, 98)!important;
 }
-
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece {
-    background-color: #600000 !important;
-    border-color: #600000 !important;
+    background-color: #afafff !important;
+    border-color: #afafff !important;
 }
-
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb,
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb  {
-    background: rgba(86, 0, 0, 0.86) !important;
-    border-color:#000 !important;
+    background: #afafff !important;
+    border-color:rgb(71, 62, 98)!important;
 }
-
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: #600000 !important;
-    border-color: #600000 !important;
+    background-color: #afafff !important;
+    border-color: #afafff !important;
 }
-
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: #600000 !important;
-    border-color: #600000 !important;
+    background-color: #afafff !important;
+    border-color: #afafff !important;
 }
-
 #rmenu {
     background: #8A0C0C;
 }
-
 #rmenu:hover {
     background-color: #8282ff;
 }
-
 
 /* Popouts */
 .popout header {
