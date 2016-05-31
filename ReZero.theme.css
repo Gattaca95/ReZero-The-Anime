@@ -185,7 +185,7 @@ a:link {
 
 /* Guilds */
 .guilds-wrapper {
-    box-shadow: inset -10px 0px 5px -6px rgba(0,0,0,0.5);
+    box-shadow: inset -10px 0px 5px -6px rgb(76,65,109);
     background: rgba(50, 42, 88, 0.64)!important;
     border-right: 1px solid rgba(0, 0, 0, 0.4);
 }
@@ -201,11 +201,11 @@ a:link {
     background: transparent !important;
 }
 .theme-dark .chat .title-wrap {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    border-bottom: 1px solid rgb(76,65,109);
 }
 .title-wrap {
     background: rgba(50, 42, 88, 0.64)!important;
-    box-shadow: inset 10px -6px 10px -6px rgba(0, 0, 0, 0.67)!important;
+    box-shadow: inset 10px -9px 10px -6px rgb(76,65,109)!important;
 }
 .guilds li.active .guild-inner,
 .guilds li:hover .guild-inner {
@@ -1067,7 +1067,7 @@ a:link {
 }
 .channel-members {
     background: rgba(50, 42, 88, 0.64)!important;
-    box-shadow: inset 10px 5px 5px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 10px 5px 5px -6px rgb(76,65,109);
 }
 .channel-members .member:hover {
     background: rgba(255, 255, 255, 0.07) !important;
@@ -1512,7 +1512,7 @@ a:link {
 .friends-table {
     background: rgba(50, 42, 88, 0.53)!important;
     margin-top: 0 !important;
-    box-shadow: inset 10px 10px 5px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 9px 10px 5px -6px rgb(76,65,109);
 }
 .friends-table .friends-table-body {
     padding-top: 20px !important;
@@ -1574,8 +1574,8 @@ a:link {
     background-color: #8282ff;
 }
 .theme-dark #friends .friends-header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-    box-shadow: inset 10px 0px 5px -6px rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgb(76,65,109);
+    box-shadow: inset 10px 0px 5px -6px rgb(76,65,109);
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
     background-color: #8282ff;
@@ -1800,7 +1800,7 @@ a:link {
 }
 .content .flex-spacer {
     background: rgba(50, 42, 88, 0.64)!important;
-    box-shadow: inset 10px 0px 5px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 10px 0px 5px -6px rgb(76,65,109);
 }
 .account {
     background: rgba(0, 0, 0, 0);
