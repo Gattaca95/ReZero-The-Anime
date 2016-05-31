@@ -314,6 +314,11 @@ a:link {
     color: #C4C8FF;
     margin-left: 6px;
 }
+.links li+li:before {
+    content: '\2022';
+    color: #C4C8FF;
+    margin-right: 6px;
+}
 .links li a {
     color: #C4C8FF;
 }
