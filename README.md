@@ -21,7 +21,6 @@ To change the pics, just add the code below in the `Custome CSS` tab of the `Bet
 .app {
     background-image: url("https://i.imgur.com/jCO8sAy.png") !important;
     background-size: cover !important;
-    `background-position: center;
 }
 /*Second Background*/
 .callout-backdrop {
