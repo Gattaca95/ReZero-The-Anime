@@ -178,9 +178,31 @@ a:link {
 .theme-dark .chat .title-wrap .topic {
     color: #e6e6fa;
 }
-
+.channel-textarea-autocomplete-inner .command-description {
+    color: #FFFFFF;
+}
 .bot-tag {
     background: #8282ff;
+}
+.upload-modal {
+    background-color: rgba(73, 61, 134, 0.65);
+}
+.upload-modal .footer {
+    background-color: rgba(111, 89, 199, 0.58);
+}
+.upload-modal .inner {
+    border: 2px dashed rgb(111, 99, 171);
+}
+.upload-modal .footer .button {
+    background-color: #afafff;
+}
+.upload-modal .footer .button-primary {
+    color: #afafff;
+    background-color: #fff;
+}
+.upload-modal .footer .button-primary {
+    color: #afafff;
+    background-color: #fff;
 }
 
 /* Guilds */
@@ -257,9 +279,6 @@ a:link {
 .guilds li .guild-inner {
     background: rgba(21, 21, 21, 0.41) !important;
 }
-.guilds-add:hover {
-    animation: color_change 1s infinite alternate;
-}
 .guilds-wrapper .guilds .guild.selected:before {
     background: #afafff;
 }
@@ -334,7 +353,6 @@ a:link {
 #voice-connection .btn-info {
     border-right: 1px solid rgba(228, 203, 255, 0.29);
 }
-
 /* Public Button */
 .guild-inner {
     background-color: #afafff!important;
@@ -411,6 +429,29 @@ a:link {
 .guild-channels .channel-text:hover a {
     color: #fff;
     background: -webkit-linear-gradient(left, rgba(154, 133, 239, 0.6) 90%, rgba(0, 0, 0, 0)) !important;
+}
+.guilds-add:hover {
+    animation: color_change 1s infinite alternate;
+}
+@-webkit-keyframes color_change {
+    from {border-color: #535559;}
+    to {border-color: red;}
+}
+@-moz-keyframes color_change {
+    from {border-color: #535559;}
+    to {border-color: Lavender;}
+}
+@-ms-keyframes color_change {
+    from {border-color: #535559;}
+    to {border-color: Lavender;}
+}
+@-o-keyframes color_change {
+    from {border-color: #535559;}
+    to {border-color: Lavender;}
+}
+@keyframes color_change {
+    from {border-color: #535559;}
+    to {border-color: Lavender;}
 }
 
 /* Profile */
@@ -1245,7 +1286,7 @@ a:link {
     border-top: 1px solid #afafff;
 }
 .modal-content .form-inner p {
-    color: #E26A6A;
+    color: #e6e6fa;
 }
 .form .form-header {
     border-bottom: 1px solid #afafff;
@@ -1825,7 +1866,7 @@ a:link {
     background: transparent !important;
 }
 .guild-header ul a.red-highlight {
-    color: #afafff;
+    color: #FFFFFF;
 }
 .form header {
     color: #afafff;
@@ -1870,26 +1911,6 @@ a:link {
 }
 .member-roles .member-role:hover {
     background-color: #8282ff;
-}
-@-webkit-keyframes color_change {
-    from {border-color: #535559;}
-    to {border-color: red;}
-}
-@-moz-keyframes color_change {
-    from {border-color: #535559;}
-    to {border-color: Lavender;}
-}
-@-ms-keyframes color_change {
-    from {border-color: #535559;}
-    to {border-color: Lavender;}
-}
-@-o-keyframes color_change {
-    from {border-color: #535559;}
-    to {border-color: Lavender;}
-}
-@keyframes color_change {
-    from {border-color: #535559;}
-    to {border-color: Lavender;}
 }
 .private-channels .search-result.selected:before,
 .private-channels .search-result:hover:before {
@@ -2062,27 +2083,6 @@ span.discriminator:hover {
 .invite-button-icon {
    background-color: rgba(0, 0, 0, 0.62);
     border: 1px solid #000000;
-}
-.upload-modal {
-    background-color: rgba(30, 30, 30, 0.78);
-}
-
-.upload-modal .footer {
-    background-color: rgba(0, 0, 0, 0.44);
-}
-.upload-modal .inner {
-    border:2px dashed rgba(6, 6, 6, 0.52);
-}
-.upload-modal .footer .button {
-    background-color: #afafff;
-}
-.upload-modal .footer .button-primary {
-    color: #afafff;
-    background-color: #fff;
-}
-.upload-modal .footer .button-primary {
-    color: #afafff;
-    background-color: #fff;
 }
 div.control-group .shortcut-recorder input[type=text] {
     border: 1px solid #afafff;
