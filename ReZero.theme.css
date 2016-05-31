@@ -375,16 +375,16 @@ a:link {
     background-color: #8282ff;
 }
 .channel-textarea-autocomplete-inner {
-    background:rgba(0,0,0,0.84)!important;
-    border:none !important;
+    background: rgb(110, 100, 156)!important;
+    border: none !important;
 }
 .channel.channel-textarea-autocomplete-inner:after {
     display:none;
 }
 .channel-textarea-autocomplete-inner header {
-    background:rgba(0,0,0,0.84)!important;
-    border-radius:5px 5px 0 0;
-    border:none !important;
+    background: rgb(110, 99, 160)!important;
+    border-radius: 5px 5px 0 0;
+    border: none !important;
 }
 .channel-textarea-autocomplete ul li.active {
     background:rgba(255,255,255,0.1)!important;
@@ -1122,7 +1122,7 @@ a:link {
 }
 .theme-dark .channel-members .member.popout-open,
 .theme-dark .channel-members .member:hover {
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 85%, rgba(46, 49, 54, 0)) !important;
+    background: -webkit-linear-gradient(left, rgba(154, 133, 239, 0.6) 85%, rgba(46, 49, 54, 0)) !important;
 }
 .channel-members .member .member-game strong {
     color: #afafff;
