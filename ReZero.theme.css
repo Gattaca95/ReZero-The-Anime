@@ -1174,6 +1174,9 @@ a:link {
     background: #afafff;
     color: #FFFFFF!important;
 }
+.channel-members .member .member-activity {
+    color: #e6e6fa;
+}
 /* takeout the ` to remove "playing"
 `.channel-members .member .member-activity {
     visibility:collapse;
