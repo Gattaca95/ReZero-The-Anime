@@ -580,7 +580,7 @@ a:link {
 
 /* Popouts */
 .popout header {
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgb(105, 92, 156);
 }
 .popout section {
     background-color: hsla(245, 46%, 63%, 0.78);
