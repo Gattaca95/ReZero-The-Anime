@@ -8,14 +8,14 @@ Hex color for texts: #e6e6fa
 
 /* Background */
 .app {
-    background-image: url("https://i.imgur.com/Zr808Zk.jpg") !important;
-    background-size: cover !important;
+    background-image: url("https://i.imgur.com/Zr808Zk.jpg");
+    background-size: cover;
 }
 .callout-backdrop {
-    opacity:0.9!important;
-    background: url("https://i.imgur.com/eeDIMtw.jpg")!important;
-    background-size: cover !important;
-    background-position: center !important;
+    opacity:0.9;
+    background: url("https://i.imgur.com/eeDIMtw.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .bda-backdrop {
     background: url("https://i.imgur.com/NUhSyNd.jpg");
@@ -24,7 +24,7 @@ Hex color for texts: #e6e6fa
 
 /* Main Chat */
 .messages .markup:not([data-colour="true"]) {
-    color: #e6e6fa !important;
+    color: #e6e6fa;
 }
 .chat .divider>span {
     color: #F1F1F1;
@@ -204,12 +204,15 @@ a:link {
     color: #afafff;
     background-color: #fff;
 }
+.upload-modal .inner .file .icon.image {
+    border: 2px solid #afafff;
+    box-shadow: 0 2px 8px rgb(115, 107, 177);
+}
 
 /* Guilds */
 .guilds-wrapper {
     box-shadow: inset -10px 0px 5px -6px rgb(76,65,109);
     background: rgba(50, 42, 88, 0.64)!important;
-    border-right: 1px solid rgba(0, 0, 0, 0.4);
 }
 .links, 
 .chat, 
@@ -295,6 +298,7 @@ a:link {
 }
 .account .btn-group {
     border: 1px solid #afafff!important;
+    border-radius: 20px;
 }
 .guilds-wrapper .guilds .guild .badge {
     background-color: #afafff;
@@ -345,11 +349,12 @@ a:link {
 }
 #voice-connection .btn-group {
     border: 1px solid #AFAFFF;
+    border-radius: 20px;
 }
 #voice-connection .btn {
     background: rgba(199, 189, 251, 0.45);
-    box-shadow: none!important;
-    border-radius: 1px;
+    box-shadow: none !important;
+    border-radius: 20px;
 }
 #voice-connection {
     border-top: none !important;
@@ -575,7 +580,7 @@ a:link {
     background-color: #8282ff;
 }
 .bda-dark #bda-qem button.active {
-    background-color: #afafff;
+    background-color: #8282ff;
 }
 .bda-dark #bda-qem button {
     background: #afafff;
@@ -592,33 +597,33 @@ a:link {
 }
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
     background: #afafff !important;
-    border-color:rgb(71, 62, 98)!important;
-}
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece {
-    background-color: #afafff !important;
-    border-color: #afafff !important;
+    border-color: #afafff!important;
 }
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb,
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb  {
     background: #afafff !important;
-    border-color:rgb(71, 62, 98)!important;
+    border-color: #afafff!important;
+}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(93, 86, 154, 0.6) !important;
+    border-color: rgba(93, 86, 154, 0.6) !important;
 }
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: #afafff !important;
-    border-color: #afafff !important;
+    background-color: rgba(93, 86, 154, 0.6) !important;
+    border-color: rgba(93, 86, 154, 0.6) !important;
 }
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: #afafff !important;
-    border-color: #afafff !important;
+    background-color: rgba(93, 86, 154, 0.6) !important;
+    border-color: rgba(93, 86, 154, 0.6) !important;
 }
 #rmenu {
-    background: #8A0C0C;
+    background: #afafff;
 }
 #rmenu:hover {
     background-color: #8282ff;
@@ -1863,10 +1868,6 @@ a:link {
 .account .btn:active {
     background: rgba(0, 0, 0, 0.26);
 }
-.account .btn-deafen,
-.account .btn-mute {
-    border-right: none;
-}
 .channel-notification-settings .content .content-inner {
     background: transparent !important;
 }
@@ -2101,7 +2102,7 @@ div.control-group .shortcut-recorder input[type=text] {
 .account .btn-settings {
     background: rgba(199, 189, 251, 0.45);
     box-shadow: none !important;
-    border-radius: 1px;
+    border-radius: 20px;
     border-right: 1px solid rgba(216, 203, 255, 0.36);
 }
 .member-role {
