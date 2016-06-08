@@ -1,5 +1,5 @@
 # ReZero-The-Anime
-<img src="http://i.imgur.com/55GUptd.jpg"/>
+<img src="http://image.prntscr.com/image/54b7c795e1234ed7861f56405559d32f.png"/>
 <img src="http://i.imgur.com/QhU9gvh.jpg"/>
 
 For the Re:Zero anime fans:
