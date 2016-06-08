@@ -8,7 +8,7 @@ Hex color for texts: #e6e6fa
 
 /* Background */
 .app {
-    background-image: url("https://i.imgur.com/Zr808Zk.jpg");
+    background-image: url("https://i.imgur.com/w7UVsOs.jpg");
     background-size: cover;
 }
 .callout-backdrop {
@@ -24,7 +24,10 @@ Hex color for texts: #e6e6fa
 
 /* Main Chat */
 .messages .markup:not([data-colour="true"]) {
-    color: #e6e6fa;
+    color: #fff !important;
+}
+.message-group .comment .markup {
+    color: #FFF;
 }
 .chat .divider>span {
     color: #F1F1F1;
@@ -299,6 +302,50 @@ a:link {
 .account .btn-group {
     border: 1px solid #afafff!important;
     border-radius: 20px;
+    background: rgb(108, 94, 174);
+}
+.account .btn-deafen:hover:after, 
+.account .btn-mute:hover:after, 
+.account .btn-settings:hover:after {
+    background-color: #8282ff;
+    border-radius: 20px;
+}
+.account .btn-deafen {
+    border-right: 1px solid #afafff;
+    border-left: 1px solid #afafff;
+}
+.account {
+    background: rgba(0, 0, 0, 0);
+}
+.account .status {
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+.account .btn-deafen, 
+.account .btn-mute, 
+.account .btn-settings {
+    background: #afafff;
+    box-shadow: none !important;
+    border-radius: 20px;
+    border-right: 1px solid rgba(216, 203, 255, 0.36);
+}
+.account .btn-settings {
+    border-left: #afafff;
+}
+.account .btn-settings:after {
+    opacity: 1;
+}
+.account {
+    background: rgba(0, 0, 0, 0);
+}
+.account .status {
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+.btn-settings:hover:after {
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 2.8s infinite linear;
+    animation: load8 2.8s infinite linear;
 }
 .guilds-wrapper .guilds .guild .badge {
     background-color: #afafff;
@@ -350,18 +397,28 @@ a:link {
 #voice-connection .btn-group {
     border: 1px solid #AFAFFF;
     border-radius: 20px;
+    background: rgb(108, 94, 174);
 }
 #voice-connection .btn {
-    background: rgba(199, 189, 251, 0.45);
-    box-shadow: none !important;
+    background: #afafff;
+    box-shadow: none;
     border-radius: 20px;
 }
 #voice-connection {
-    border-top: none !important;
+    border-top: none;
     padding: 15px 20px 15px 18px !important;
 }
 #voice-connection .btn-info {
     border-right: 1px solid rgba(228, 203, 255, 0.29);
+}
+#voice-connection .btn-disconnect:hover:after,
+#voice-connection .btn-info:hover:after {
+    background-color: #8282ff;
+    border-radius: 20px;
+}
+#voice-connection .btn-info:after,
+#voice-connection .btn-disconnect:after {
+    opacity: 1;
 }
 /* Public Button */
 .guild-inner {
@@ -747,7 +804,7 @@ a:link {
     color: #e6e6fa !important;
 }
 .small-popout-box {
-    background: rgba(0, 0, 0, 0.7);
+    background: #afafff;
     border: 1px solid #afafff;
 }
 .option-popout .btn-item {
@@ -762,7 +819,8 @@ a:link {
     color: white;
 }
 .small-popout-box .btn-item:hover {
-    color: #afafff;
+    color: #fff;
+    background: #8282ff;
 }
 .theme-dark.context-menu .item.danger {
     color: #afafff !important;
@@ -1282,10 +1340,10 @@ a:link {
     background: rgba(154, 133, 239, 0.65);
 }
 .settings-section.control-groups {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(109, 97, 170, 0.7);
 }
 .notification-settings-modal-channel-settings-header {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgb(79, 74, 138);
 }
 .form-header, 
 .form-inner, 
@@ -1859,15 +1917,6 @@ a:link {
     background: rgba(50, 42, 88, 0.64)!important;
     box-shadow: inset 10px 0px 5px -6px rgb(76,65,109);
 }
-.account {
-    background: rgba(0, 0, 0, 0);
-}
-.account .status {
-    border: 2px solid rgba(0, 0, 0, 1);
-}
-.account .btn:active {
-    background: rgba(0, 0, 0, 0.26);
-}
 .channel-notification-settings .content .content-inner {
     background: transparent !important;
 }
@@ -2020,13 +2069,6 @@ a:link {
     0% {-webkit-transform: rotate(0deg); transform: rotate(0deg);}
     100% {-webkit-transform: rotate(360deg); transform: rotate(360deg);}
 }
-.account .btn-settings:hover:after {
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-animation: load8 2.8s infinite linear;
-    animation: load8 2.8s infinite linear;
-}
 .guilds li .badge {
     animation: zoom 2s infinite;
 }
@@ -2097,14 +2139,6 @@ div.control-group .shortcut-recorder input[type=text] {
 .offline {
     background-color: #FA1A1A;
 } 
-.account .btn-deafen, 
-.account .btn-mute, 
-.account .btn-settings {
-    background: rgba(199, 189, 251, 0.45);
-    box-shadow: none !important;
-    border-radius: 20px;
-    border-right: 1px solid rgba(216, 203, 255, 0.36);
-}
 .member-role {
     color: #800000;
     background-color: #330000;
