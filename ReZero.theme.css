@@ -29,6 +29,9 @@ Hex color for texts: #e6e6fa
 .message-group .comment .markup {
     color: #FFF;
 }
+.theme-dark .messages-wrapper {
+    box-shadow: inset 10px 0px 5px -6px rgb(76,65,109);
+}
 .chat .divider>span {
     color: #F1F1F1;
 }
@@ -187,6 +190,8 @@ a:link {
 .bot-tag {
     background: #8282ff;
 }
+
+/* Uploading */
 .upload-modal {
     background-color: rgba(73, 61, 134, 0.65);
 }
@@ -210,6 +215,27 @@ a:link {
 .upload-modal .inner .file .icon.image {
     border: 2px solid #afafff;
     box-shadow: 0 2px 8px rgb(115, 107, 177);
+}
+.upload-drop-modal .bgScale {
+    background: rgba(154, 133, 239, 0.6);
+}
+.upload-drop-modal .inner {
+    border: 2px dashed #afafff;
+}
+.upload-drop-modal .inner .title {
+    color: #afafff;
+}
+.upload-drop-modal .inner .instructions {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.upload-drop-modal .inner .icon.one {
+    background-image: url(/assets/60c3eaf0d7173c929482362ea1d2543a.svg);
+}
+.upload-drop-modal .inner .icon.two {
+    background-image: url(/assets/4ab2ee5027741df387151ca717ae5614.svg);
+}
+.upload-drop-modal .inner .icon.three {
+    background-image: url(/assets/a4ef7d20760cef4c165825770fd12ac7.svg);
 }
 
 /* Guilds */
@@ -421,11 +447,11 @@ a:link {
     opacity: 1;
 }
 /* Public Button */
-.guild-inner {
-    background-color: #afafff!important;
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: #afafff !important;
 }
-.guild-inner:hover {
-    background-color: #8282ff !important;
+.guilds-wrapper .guilds .guild .guild-inner:hover {
+    background: #8282ff !important;
 }
 #pubs-header input:focus {
     width: 150px;
@@ -445,6 +471,10 @@ a:link {
     background-color: #8282ff !important;
 }
 /* Channels */
+.guild-channels .channel-text .channel-name:before {
+    content: '§';
+    color: rgba(241, 241, 241, 0.61)!important;
+}
 .channel-textarea-inner {
     border: 2px solid #afafff!important;
     background: rgba(88, 61, 123, 0.6) !important;
@@ -972,12 +1002,18 @@ a:link {
 }
 .alert.form .form-inner .cancel {
     border-radius: 3px;
-    border-color: #940305 !important;
-    background-color: rgba(0, 0, 0, 0.62);
+    border-color: #afafff !important;
+    background-color: #afafff;
+    color: #fff;
+}
+.alert.form .form-inner h4 {
     color: #fff;
 }
 .alert.form .form-inner .cancel:hover {
     background-color: #8282ff !important;
+}
+.alert.form .form-inner p {
+    color: #e6e6fa;
 }
 .guild-settings-modal-members .member-buttons .btn {
     background: #afafff;
@@ -1129,6 +1165,9 @@ a:link {
 }
 #settings-roles .roles li {
     color: #FFFFFF;
+}
+#settings-roles h1 {
+    color: #fff;
 }
 #settings-roles .roles li.selected:before {
     color: #FFFFFF;
@@ -1353,9 +1392,6 @@ a:link {
 .form .form-actions {
     border-top: 1px solid #afafff;
 }
-.modal-content .form-inner p {
-    color: #e6e6fa;
-}
 .form .form-header {
     border-bottom: 1px solid #afafff;
 }
@@ -1536,7 +1572,16 @@ a:link {
 .sensitivity .slider .slider-bar {
     background-color: #000000;
 }
-
+.user-settings-security .btn-ghost {
+    background: #afafff;
+    border: 2px solid #afafff;
+    color: #fff;
+}
+.user-settings-security .btn-ghost:hover {
+    background: #8282ff;
+    border: 2px solid #afafff;
+    color: #fff;
+}
 
 /* Better Discord Settings */
 #bd-customcss-detach-container {
@@ -1675,6 +1720,14 @@ a:link {
 #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-red:hover {
     background-color: #8282ff;
 }
+.private-channels .channel .icon-friends {
+    background: url(/assets/78edad9e528abdda340ef4341ac52b57.svg) 50% no-repeat;
+    background-color: rgba(175, 175, 255, 0);
+}
+.private-channels .channel.btn-friends {
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(left, rgba(154, 133, 239, 0.6) 85%, rgba(46, 49, 54, 0)) !important;
+}
 .guilds-wrapper .guilds .friends-online {
     font-size: 10px;
     color: hsla(0, 0%, 100%, 0.82);
@@ -1711,9 +1764,6 @@ a:link {
     background-color: rgba(0, 0, 0, 0.54);
     border-color: rgba(0, 0, 0, 0.35);
 }
-.private-channels .channel .icon-friends {
-    background-color: rgba(21, 21, 21, 0.41) !important;
-}
 .chat>.title-wrap>.topic .aka {
     background: #afafff;
 }
@@ -1725,6 +1775,22 @@ a:link {
 }
 .search-bar {
     box-shadow: inset 5px 0px 5px -6px rgba(0,0,0,0.5);
+}
+.badge {
+    background-color: #afafff;
+}
+.search-bar-clear:before {
+    background: #8282ff;
+}
+.search-bar-clear:after {
+    background: #afafff;
+}
+search-bar-clear {
+    background: #afafff;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item .badge {
+    background-color: #afafff;
+    color: #fff;
 }
  
 /* Pulses */
@@ -1915,7 +1981,6 @@ a:link {
 }
 .content .flex-spacer {
     background: rgba(50, 42, 88, 0.64)!important;
-    box-shadow: inset 10px 0px 5px -6px rgb(76,65,109);
 }
 .channel-notification-settings .content .content-inner {
     background: transparent !important;
@@ -2222,6 +2287,9 @@ div.control-group .shortcut-recorder input[type=text] {
     border-radius: 2px;
     width: 60px;
     color: #FFFFFF;
+}
+.form .btn:disabled {
+    color: #fff;
 }
 .markdown-modal .markdown-modal-header {
     border-bottom: 1px solid #afafff;
