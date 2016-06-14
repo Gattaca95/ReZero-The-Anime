@@ -13,7 +13,7 @@ To download this theme:
 + Step 5: Restart Discord (CMD+R or CTRL+R)
 + Step 6: Open Discord Settings>BetterDiscord>Themes>Enable the theme
 
-To change the pics, just add the code below with a different link in the Custome CSS tab of the BetterDiscord settings:
+To change the pics, just add the code below with a different link in the `Custome CSS` tab of the `BetterDiscord` settings:
 ```css
 /*First Background*/
 .app {
