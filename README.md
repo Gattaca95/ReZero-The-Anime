@@ -1,8 +1,8 @@
 #<DIV ALIGN=CENTER><a href="https://github.com/CurimuChizu/ReZero-The-Anime/blob/master/ReZero.theme.css">ReZero The Anime</a></div>
-<DIV ALIGN=CENTER><b><i>For the Re:Zero anime fans</i></b>
+<b><i>For the Re:Zero anime fans</i></b>
 <img src="http://i.imgur.com/rthaufN.jpg"/>
 <img src="http://i.imgur.com/QhU9gvh.jpg"/>
-<img src="http://i.imgur.com/ng5Kmpt.gif"/><div>
+<img src="http://i.imgur.com/ng5Kmpt.gif"/>
 To download this theme:
 + Step 1: Right Click the Raw Button
 + Step 2: Click Save Link As 
