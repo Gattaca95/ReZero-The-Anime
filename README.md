@@ -14,8 +14,6 @@ To download this theme:
 + Step 6: Open Discord Settings>BetterDiscord>Themes>Enable the theme
 
 To change the pics, just add the code below in the `Custome CSS` tab of the `BetterDiscord` settings:
-
-( Be sure to add the `s` after `http` when you change the pic or it won't appear )
 ```css
 /*First Background*/
 .app {
@@ -30,4 +28,6 @@ To change the pics, just add the code below in the `Custome CSS` tab of the `Bet
     background-position: center !important;
 }
 ```
+( Be sure to add the `s` after `http` when you change the pic or it won't appear )
+
 P.S. This theme is still new so there might still be some wrong colors but fear not! Just notify me and it will be fixed.
