@@ -2,7 +2,7 @@
 <DIV ALIGN=CENTER><b><i>For the Re:Zero anime fans</i></b>
 <img src="http://i.imgur.com/rthaufN.jpg"/>
 <img src="http://i.imgur.com/QhU9gvh.jpg"/>
-<img src="http://i.imgur.com/ng5Kmpt.gif"/>
+<img src="http://i.imgur.com/ng5Kmpt.gif"/><div>
 
 To download this theme:
 + Step 1: Right Click the Raw Button
