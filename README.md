@@ -29,27 +29,4 @@ To change the pics, just add the code below with a different link in the `Custom
     background-position: center !important;
 }
 ```
-#<DIV ALIGN=CENTER><a href="http://github.com/CurimuChizu/Red-n-Black/blob/master/Red%20n%20Black.theme.css">Red n Black</a></div>
-<DIV ALIGN=CENTER><b><i>A theme based red and black with a hint of anime</i></b>
-<img src="http://i.imgur.com/v7T0Tqk.jpg"/>
-<img src="http://i.imgur.com/RP0apJN.jpg"/>
-<img src="http://i.imgur.com/w1p4aNN.gif"/></div>
-
-To change the pics, just add the code below with a different link in the `Custome CSS` tab of the `BetterDiscord` settings:
-+ ( Be sure to add the `s` after `http` when you change the pic or it won't appear )
-```css
-/*First Background*/
-.app {
-    background-image: url("https://i.imgur.com/P0k3VRY.jpg") !important;
-    background-size: 1500px 900px !important;
-    background-repeat: no-repeat !important;
-}
-/*Second Background*/
-.callout-backdrop {
-    opacity:0.9 !important;
-    background: url(https://i.imgur.com/CcntY8Y.jpg) !important;
-    background-size: 1500px 900px !important;
-    background-repeat: no-repeat !important;
-}
-```
 Thanks for coming~~ ^~^
