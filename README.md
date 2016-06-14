@@ -3,6 +3,7 @@
 <img src="http://i.imgur.com/rthaufN.jpg"/>
 <img src="http://i.imgur.com/QhU9gvh.jpg"/>
 <img src="http://i.imgur.com/ng5Kmpt.gif"/>
+
 To download this theme:
 + Step 1: Right Click the Raw Button
 + Step 2: Click Save Link As 
