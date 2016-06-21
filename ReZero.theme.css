@@ -1,4 +1,4 @@
-//META{"name":"ReZero_Anime","description":"ReZero anime theme.","author":"CreamCheese (C.C.)","version":"1.6"}*//
+//META{"name":"ReZero_Anime","description":"ReZero anime theme.","author":"CreamCheese (C.C.)","version":"2.3"}*//
 
 /* 
 Hex color for everything: #afafff
@@ -693,21 +693,22 @@ a:link {
 }
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(93, 86, 154, 0.6) !important;
-    border-color: rgba(93, 86, 154, 0.6) !important;
-}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(93, 86, 154, 0.6) !important;
-    border-color: rgba(93, 86, 154, 0.6) !important;
+    background-color: rgba(16, 1, 1, 0.6) !important;
+    border-color: rgba(16, 1, 1, 0.6) !important;
+    width: 8px;
 }
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(93, 86, 154, 0.6) !important;
-    border-color: rgba(93, 86, 154, 0.6) !important;
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
+    background: #afafff !important;
+    border-color:#afafff !important;
 }
 #rmenu {
     background: #afafff;
@@ -1359,6 +1360,15 @@ a:link {
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     border: 3px solid rgba(255, 255, 255, 0) !important;
     background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.is-open.is-focused .Select-menu::-webkit-scrollbar,
+.is-open.is-focused .Select-menu::-webkit-scrollbar-track-piece{
+    background: rgba(0, 0, 0, 0.3);
+    width: 8px;
+}
+.is-open.is-focused .Select-menu::-webkit-scrollbar-thumb {
+    background: #afafff;
+    border-radius: 10px;
 }
 
 
